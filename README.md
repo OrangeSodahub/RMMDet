@@ -1,11 +1,6 @@
-# CRLFnet
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
-![GitHub](https://img.shields.io/github/license/OrangeSodahub/CRLFnet)
-![GitHub top language](https://img.shields.io/github/languages/top/OrangeSodahub/CRLFnet)
-![GitHub last commit](https://img.shields.io/github/last-commit/OrangeSodahub/CRLFnet)
-[![DOI](https://zenodo.org/badge/477069057.svg)](https://zenodo.org/badge/latestdoi/477069057)
+# RMMDet
 
-The source code of the CRLFnet.
+The source code of the RMMDet.
 
 ## INSTALL & BUILD
 
@@ -148,24 +143,5 @@ Follow these steps for only lidar-camera fusion. Some of them need different bas
     cd src/site_model/
     python -m src.LidCamFusion.fusion [--config] [--eval] [--re] [--disp] [--printl] [--printm]
 ```
-
-### TODO...
-
-# Issues
-Some problems may occurred during debugging.
-- Confused: set the batch_size=1 and still out of memory: https://github.com/open-mmlab/OpenPCDet/issues/140
-- 段错误(核心已转储) when run dem.py: https://github.com/open-mmlab/OpenPCDet/issues/846
-- N > 0 assert faild. CUDA kernel launch blocks must be positive, but got N= 0 when training: https://github.com/open-mmlab/OpenPCDet/issues/945
-- raise NotImplementedError, NaN or Inf found in input tensor when training: https://github.com/open-mmlab/OpenPCDet/issues/280
-- fix recall calculation bug for empty scene: https://github.com/open-mmlab/OpenPCDet/pull/908
-- installation Error " fatal error: THC/THC.h: No such file or directory #include <THC/THC.h> ": https://github.com/open-mmlab/OpenPCDet/issues/1014
-- ...
-- Welcome to report more issues!
-
-<details>
-<summary>Star History</summary>
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=OrangeSodahub/CRLFnet&type=Date)](https://star-history.com/#OrangeSodahub/CRLFnet&Date)
 
 </details>
