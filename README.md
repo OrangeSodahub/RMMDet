@@ -1,6 +1,6 @@
 # RMMDet
 
-The source code of the RMMDet.
+The source code of the RMMDet. Partly transferred from [CRLFnet](https://github.com/OrangeSodahub/CRLFnet.git).
 
 ## INSTALL & BUILD
 
